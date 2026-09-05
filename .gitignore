@@ -1,0 +1,36 @@
+# Local company material
+/knowledge/company-private/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Runtime and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+node_modules/
+.cache/
+
+# Temporary output
+/tmp/
+/temp/
+/dist/
+/build/
+*.tmp
+*.log
+~$*
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
